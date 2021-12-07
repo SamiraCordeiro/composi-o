@@ -12,8 +12,28 @@ package composição;
 public class Automovel {
     Motor motor;
     Direcao direcao;
+
+    public Motor getMotor() {
+        return motor;
+    }
+
+    public void setMotor(Motor motor) {
+        this.motor = motor;
+    }
+
+    public Direcao getDirecao() {
+        return direcao;
+    }
+
+    public void setDirecao(Direcao direcao) {
+        this.direcao = direcao;
+    }
     
-    
+     public void imprimirDadosCarro(){
+        System.out.println("Potência do Motor: "+ motor.getPotencia());
+        System.out.println("Cor da Direção:  "+ direcao.getCor());
+        
+     }
     
     public void ligarPelaPrimeiraVez(){
         motor = new Motor();
@@ -33,6 +53,6 @@ public class Automovel {
     public Automovel(int potencia, String cor){
         motor = new Motor(potencia);
         direcao = new Direcao(cor);
-        
     }
+    
 }

@@ -11,6 +11,7 @@ package composição;
  */
 public class Direcao {
     private String cor;
+    String getCor;
     
     
     public Direcao(){

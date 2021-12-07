@@ -11,7 +11,7 @@ package composição;
  */
 public class Motor {
     int potencia;
-    
+   
     public Motor(){
         potencia=1000;//valor Padrão
     }
