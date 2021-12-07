@@ -14,6 +14,7 @@ public class Composicao {
         
         Automovel carro = new Automovel();
         Automovel carro2 = new Automovel(1500,"Verde");
+        
             //primeira forma
             Automovel uno = new Automovel();
             Automovel Golf = new Automovel (2000);
